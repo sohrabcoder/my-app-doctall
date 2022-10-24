@@ -1,0 +1,23 @@
+/* .card-body {
+    width: 200px;
+    height: 100px;
+} */
+.card {
+    box-shadow: 1px 0px 10px 1px #002931;
+    transition: 0.5s;
+    animation: ease-out;
+}
+.card:hover {
+    transform: scale(0.9);
+    border-top: 3px solid orangered;
+    cursor: pointer;
+    
+}
+.btn {
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
